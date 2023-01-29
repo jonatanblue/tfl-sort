@@ -14,3 +14,16 @@ Pass the text as input to a text-to-speech model.
 3. Sorted
 
 A third, speech-to-text model parses the output and sorts it.
+
+## Install
+
+```
+sudo apt update && sudo apt install -y python3-pil tesseract-ocr libtesseract-dev
+pip install pytesseract pillow
+```
+
+## Run
+
+```
+python run.py input.jpg
+```
