@@ -18,8 +18,8 @@ A third, speech-to-text model parses the output and sorts it.
 ## Install
 
 ```
-sudo apt update && sudo apt install -y python3-pil tesseract-ocr libtesseract-dev
-pip install pytesseract pillow
+sudo apt update && sudo apt install -y python3-pil tesseract-ocr libtesseract-devffmpeg
+pip install pytesseract pillow SpeechRecognition pydub
 ```
 
 ## Run
