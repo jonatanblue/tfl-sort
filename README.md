@@ -18,7 +18,7 @@ The TfL sorting algorithm is inspired by Transport for London.
 ## Install
 
 ```
-sudo apt update && sudo apt install -y python3-pil tesseract-ocr libtesseract-devffmpeg
+sudo apt update && sudo apt install -y python3-pil tesseract-ocr libtesseract-dev ffmpeg
 pip install pytesseract pillow SpeechRecognition pydub
 ```
 
